@@ -1,0 +1,94 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("Images/bgc.png");
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.musicBox{
+  width: 420px;
+  height: 560px;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17,25,40,0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.125);
+  color:white;
+  text-align: center;
+  overflow: hidden;
+}
+
+.midPart{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.singerImg{
+  width: 160px;
+  background-color: white;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  border:2px solid white;
+  box-shadow: 0px 0px 20px yellowgreen;
+}
+.singerImg img{
+  width: 160px;
+  height: 160px;
+  background-position: center;
+}
+
+.info{
+  width: 100%;
+  height: 160px;
+}
+.dataInfo{
+  padding: 10px;
+}
+#range{
+  width: 100%;
+}
+.timer{
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+}
+.controls{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.btn{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  color:black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;  
+}
+#play:hover{
+  width: 60px;
+  height: 60px;
+  font-size: 22px;
+  cursor: pointer;
+}

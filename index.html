@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="container">
+    <div class="musicBox">
+      <h3>Music Player</h3>
+      <hr>
+      <div class="midPart">
+        <div class="singerImg">
+          <img src="Images/img3.jpg" alt="">
+        </div>
+      </div>
+      <div class="info">
+        <div class="songInfo">
+          <h3>U.P. Hai Bharat ki shaan</h3>
+          <h4>Hansraj</h4>
+        </div>
+        <div class="dataInfo">
+          <input type="range" id="range" value="0">
+          <div class="timer">
+            <div class="prev">00:00</div>
+            <div class="next">03:06</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="controls">
+        <div class="btn" id="back"><i class="fa-solid fa-backward"></i></div>
+        <div class="btn" id="play"><i class="fa-solid fa-play"></i></div>
+        <div class="btn" id="next"><i class="fa-solid fa-forward"></i></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
